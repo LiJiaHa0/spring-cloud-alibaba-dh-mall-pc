@@ -3,19 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.dh.mall</groupId>
-        <artifactId>spring-cloud-alibaba-dh-mall-pc</artifactId>
+        <artifactId>user-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ms-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <artifactId>user-service-api</artifactId>
+    <packaging>jar</packaging>
     <groupId>com.dh.mall</groupId>
-    <name>ms-service</name>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>user-service-api</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>user-service</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

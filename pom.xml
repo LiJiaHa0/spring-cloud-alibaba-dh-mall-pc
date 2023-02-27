@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ms-service</module>
+        <module>dh-mall-portal</module>
     </modules>
     <groupId>com.dh.mall</groupId>
     <artifactId>spring-cloud-alibaba-dh-mall-pc</artifactId>
@@ -20,7 +21,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud-alibaba.version>2.2.10-RC1</spring-cloud-alibaba.version>
+        <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
     </properties>
 
@@ -68,6 +69,11 @@
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.dh.mall</groupId>
+                <artifactId>user-service-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

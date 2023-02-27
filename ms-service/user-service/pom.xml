@@ -7,10 +7,15 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>user-service-api</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>user-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <name>user-service-api</name>
+    <modules>
+        <module>user-service-provider</module>
+        <module>user-service-api</module>
+    </modules>
+    <name>user-service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
